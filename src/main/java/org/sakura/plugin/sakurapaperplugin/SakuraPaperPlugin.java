@@ -2,6 +2,9 @@ package org.sakura.plugin.sakurapaperplugin;
 
 import org.bukkit.event.Listener;
 import org.bukkit.plugin.java.JavaPlugin;
+import org.sakura.plugin.sakurapaperplugin.listeners.ChatListener;
+import org.sakura.plugin.sakurapaperplugin.listeners.WholeListener;
+import org.sakura.plugin.sakurapaperplugin.websocket.WebSocketService;
 
 import java.util.Objects;
 

@@ -1,4 +1,4 @@
-package org.sakura.plugin.sakurapaperplugin;
+package org.sakura.plugin.sakurapaperplugin.listeners;
 
 import io.papermc.paper.chat.ChatRenderer;
 import io.papermc.paper.event.player.AsyncChatEvent;
@@ -9,10 +9,12 @@ import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.jetbrains.annotations.NotNull;
+import org.sakura.plugin.sakurapaperplugin.websocket.WebSocketService;
+import org.sakura.plugin.sakurapaperplugin.entity.GEvent;
 
 public class ChatListener implements Listener, ChatRenderer {
 
-    ChatListener(WebSocketService webSocketService) {
+    public ChatListener(WebSocketService webSocketService) {
         this.webSocketService = webSocketService;
     }
 

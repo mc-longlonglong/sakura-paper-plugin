@@ -1,4 +1,4 @@
-package org.sakura.plugin.sakurapaperplugin;
+package org.sakura.plugin.sakurapaperplugin.entity;
 
 public class GEvent {
     private String eventType;
